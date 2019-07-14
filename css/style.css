@@ -1,12 +1,22 @@
 #my_site {
-  background-color: #8B4513; 
+  background-color: #696969; 
 }
 
 #choose_door {
   text-align: center;
-  font-family: "Times New Roman", Georgia, Serif;
   color: White;
   font-size: 20pt;
+  font-family: "Times New Roman", "Lucida Bright", Serif;
+}
+
+#title {
+  font-size: 35pt;
+  font-family: Consolas, "Courier New", Monospaced;
+  margin-bottom: 5px;
+}
+
+p.usual {
+  margin-top: 1px;
 }
 
 #door_container {
