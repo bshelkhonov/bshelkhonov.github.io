@@ -1,4 +1,16 @@
+#my_site {
+  background-color: #8B4513; 
+}
+
+#choose_door {
+  text-align: center;
+  font-family: "Times New Roman", Georgia, Serif;
+  color: White;
+  font-size: 20pt;
+}
+
 #door_container {
+  margin-top: 60px;
   text-align: center;
 }
 
