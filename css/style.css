@@ -1,30 +1,9 @@
 #my_site {
-  background-color: #696969; 
+  /*background-color: red; */
 }
 
-#choose_door {
+#my_button {
   text-align: center;
-  color: White;
-  font-size: 20pt;
-  font-family: "Times New Roman", "Lucida Bright", Serif;
+  margin-top: 100px;
 }
 
-#title {
-  font-size: 35pt;
-  font-family: Consolas, "Courier New", Monospaced;
-  margin-bottom: 5px;
-}
-
-p.usual {
-  margin-top: 1px;
-}
-
-#door_container {
-  margin-top: 60px;
-  text-align: center;
-}
-
-.door {
-  display: inline-block;
-  margin: 0 30px;
-}
