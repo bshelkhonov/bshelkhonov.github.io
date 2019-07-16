@@ -15,9 +15,7 @@ function decToHex(num) {
 
 
 function getRandomParam() {
-  return "linear-gradient(" + 
-          getRandInt(0, 360) + 
-          "deg, " + 
+  return "linear-gradient(90deg, " + 
           decToHex(getRandInt(0, 1 << 24)) + ", " + decToHex(getRandInt(0, 1 << 24)) + ")";
 }
 
