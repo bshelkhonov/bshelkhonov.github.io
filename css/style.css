@@ -1,9 +1,7 @@
-#my_site {
-  /*background-color: red; */
-}
-
 #my_button {
-  text-align: center;
-  margin-top: 100px;
+  margin-top: 150px;
+  font-size: 30pt;
+  font-family: Consolas, "Courier New", Monospace;
+  font-style: italic;
 }
 
