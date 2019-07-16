@@ -3,5 +3,9 @@
   font-size: 30pt;
   font-family: Consolas, "Courier New", Monospace;
   font-style: italic;
+  color: red;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
 }
 
