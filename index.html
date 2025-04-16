@@ -35,6 +35,7 @@
 <body>
     <h1>Telegram Mini App</h1>
     <button id="switchInlineBtn">Call switchInlineQuery</button>
+    <button id="shareMessageBtn">Call shareMessage</button>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -43,15 +44,21 @@
             webApp.expand();
             webApp.ready();
 
-            // Get the button
+            // Get the buttons
             const switchInlineBtn = document.getElementById('switchInlineBtn');
+            const shareMessageBtn = document.getElementById('shareMessageBtn');
 
-            // Add click event to button
+            // Add click event to switchInlineBtn
             switchInlineBtn.addEventListener('click', function() {
                 // Switch to inline mode with empty query
                 // The empty string will switch to the current chat
                 // The true parameter enables choosing from the list of chats
                 webApp.switchInlineQuery('test', ['users', 'bots', 'groups', 'channels']);
+            });
+
+            // Add click event to shareMessageBtn
+            shareMessageBtn.addEventListener('click', function() {
+                webApp.shareMessage('VT6WUot4MDCb3rE6');
             });
         });
     </script>
